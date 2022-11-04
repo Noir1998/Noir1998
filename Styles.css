@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+#gooimg{
+    width: 250px;
+    height: 100px;
+    display: block;
+    margin: auto;
+    padding-top: 125px;
+}
+
+#pages{
+    display: block;
+    text-align: right;
+    padding: 10px 15px;
+}
+
+#main{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+#searchbar{
+    width: 350px;
+    height: 35px;
+    border-radius: 20px;
+}
+
+#buttons{
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+#b1, #b2, #b3{
+    margin:0px 20px;
+    height: 30px;
+    width: 125px;
+}
+
+#googleAD{
+    width: 100px;
+    height: 40px;
+    padding: 15px;
+}
+
+.header{
+    padding-left: 50px;
+}
+
+#mainheader{
+    color: rgb(219, 68, 55);
+}
+
+#advanced, #send{
+    width: 100%;
+    max-width: 600px;
+    padding-left: 50px;
+}
+
+#advanced > input{
+    display: block;
+    float: right;
+    width: 400px;
+    height: 25px; 
+}
+
+#send > input{
+    border-radius: 3px;
+    border: solid blue 1px;
+    background-color: rgba(66, 133, 244);
+    color: white;
+    padding: 8px 20px;
+    float: right;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+  
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+  
+a:hover {
+    text-decoration: underline;
+} 
